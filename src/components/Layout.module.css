@@ -1,0 +1,10 @@
+.container {
+  min-height: 100vh;
+}
+
+/* Support Safari */
+@supports (-webkit-touch-callout: none) {
+  .container {
+    min-height: -webkit-fill-available;
+  }
+}

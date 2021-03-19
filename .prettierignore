@@ -1,0 +1,7 @@
+node_modules
+out
+.next
+.idea
+data
+public
+package-lock.json
