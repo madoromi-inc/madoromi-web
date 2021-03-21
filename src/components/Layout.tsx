@@ -30,7 +30,7 @@ export const Layout: React.FC<Props> = (props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <div className={classNames('flex flex-col', styles.container)}>
-      <header className="flex justify-between p-4 bg-gray-800 text-white">
+      <header className="fixed top-0 inset-x-0 flex justify-between p-4 bg-white bg-opacity-25 text-white">
         <h1>
           <Link href="/">{SiteName}</Link>
         </h1>
@@ -50,7 +50,7 @@ export const Layout: React.FC<Props> = (props) => (
 );
 
 Layout.defaultProps = {
-  title: 'Site Title',
+  title: 'madoromi, Inc.',
   description: 'description',
   keywords: 'keywords',
 };
