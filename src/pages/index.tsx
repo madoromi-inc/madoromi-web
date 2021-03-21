@@ -7,7 +7,13 @@ const IndexPage: React.FC = () => {
     <Layout>
       <div>
         <div className="relative w-full h-screen sticky top-0 bg-red-500">
-          <video autoPlay muted loop className="w-full h-screen object-cover">
+          <video
+            autoPlay
+            muted
+            loop
+            className="w-full h-screen object-cover"
+            playsInline={true}
+          >
             <source src="/bg01.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gray-900 opacity-50" />
