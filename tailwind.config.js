@@ -8,7 +8,11 @@ module.exports = {
       '16/9': [16, 9],
       '4/3': [4, 3],
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'noto-serif': ['Noto Serif JP', 'serif'],
+      },
+    },
   },
   variants: {
     aspectRatio: ['responsive'],

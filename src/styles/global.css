@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply bg-black;
-}
-
 body {
-  @apply text-base text-gray-600 leading-7;
+  @apply bg-black font-noto-serif text-base text-gray-600;
 }

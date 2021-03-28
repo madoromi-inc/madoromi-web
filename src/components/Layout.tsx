@@ -1,8 +1,5 @@
-import classNames from 'classnames';
 import Head from 'next/head';
-import Link from 'next/link';
 import React from 'react';
-import styles from './Layout.module.css';
 import { SiteUrl, SiteName } from '@src/constants';
 
 type Props = {
@@ -28,24 +25,13 @@ export const Layout: React.FC<Props> = (props) => (
       <meta name="twitter:image" content={`${SiteUrl}/logo.png`} />
       <meta httpEquiv="Cache-Control" content="no-cache" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap"
+        rel="stylesheet"
+      />
     </Head>
-    <div className={classNames('flex flex-col', styles.container)}>
-      <header className="fixed top-0 inset-x-0 flex justify-between p-4 bg-white bg-opacity-25 text-white">
-        <h1>
-          <Link href="/">{SiteName}</Link>
-        </h1>
-        <nav className="space-x-4">
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </nav>
-      </header>
-      <main className="flex-grow">{props.children}</main>
-      <footer className="p-4 bg-gray-800 text-white">footer</footer>
-    </div>
+    {props.children}
   </>
 );
 
