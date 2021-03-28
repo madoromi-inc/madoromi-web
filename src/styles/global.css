@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-black font-noto-serif text-base text-gray-600;
+@layer base {
+  body {
+    @apply bg-black font-noto-serif text-base text-gray-600;
+  }
+
+  /* for Safari */
+  @supports (-webkit-touch-callout: none) {
+    .h-screen {
+      height: -webkit-fill-available;
+    }
+  }
 }

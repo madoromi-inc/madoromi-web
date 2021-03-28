@@ -42,7 +42,7 @@ const IndexPage: React.FC = () => {
               loop
               playsInline
               className="w-full h-screen object-cover"
-              poster="/kv_thumb.png"
+              poster="/kv_thumb.jpg"
             >
               <source src="/kv.mp4" type="video/mp4" />
             </video>
@@ -145,7 +145,7 @@ const IndexPage: React.FC = () => {
               <div className="mt-8 text-md sm:text-xl sm:leading-loose">
                 <p>こんな小さな会社に何ができるのかと思うかもしれません。</p>
                 <p className="mt-4">
-                  もちろん戦場は選びます。戦い方も工夫しなければなりません。
+                  もちろん工夫は必要です。
                   <br />
                   しかし、テクノロジーの力は何倍にもスケールします。
                 </p>
@@ -167,24 +167,26 @@ const IndexPage: React.FC = () => {
             <div className="max-w-screen-2xl mx-auto text-white p-4">
               <h1 className="text-2xl sm:text-3xl">会社概要</h1>
               <div className="mt-8 text-md sm:text-xl sm:leading-loose">
-                社名
-                <br />
-                株式会社madoromi (madoromi, Inc.)
-                <br />
-                <br />
-                代表取締役社長
-                <br />
-                佐々木達哉
-                <br />
-                <br />
-                本社所在地
-                <br />
-                〒150-0043
-                <br />
-                東京都渋谷区円山町10-18 マイキャッスル渋谷JP1003
-                <br />
-                <br />
-                お問い合わせ
+                <p>株式会社madoromi (madoromi, Inc.)</p>
+                <p className="mt-4">
+                  代表
+                  <br />
+                  代表取締役社長 佐々木達哉
+                </p>
+                <p className="mt-4">
+                  本社所在地
+                  <br />
+                  〒150-0043
+                  <br />
+                  東京都渋谷区円山町10-18 マイキャッスル渋谷JP1003
+                </p>
+                <p className="mt-4">
+                  お問い合わせ
+                  <br />
+                  <a href="mailto:sasaki_tatsuya@madoromi.co.jp">
+                    sasaki_tatsuya@madoromi.co.jp
+                  </a>
+                </p>
               </div>
             </div>
           </div>
