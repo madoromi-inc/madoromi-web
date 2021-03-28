@@ -73,10 +73,7 @@ const IndexPage: React.FC = () => {
             <div className="max-w-screen-2xl mx-auto text-white p-4">
               <h1 className="text-2xl sm:text-3xl">madoromiが目指す世界</h1>
               <div className="mt-8 text-md sm:text-xl sm:leading-loose">
-                <p>
-                  まどろみのある豊かな世界。
-                  <br />
-                </p>
+                <p>まどろみのある豊かな世界。</p>
                 <p className="mt-4">
                   春、桜を眺めながらまどろむ。
                   <br />
