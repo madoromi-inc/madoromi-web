@@ -71,7 +71,12 @@ const IndexPage: React.FC = () => {
           </div>
           <div className="relative w-full h-screen">
             <div className="max-w-screen-2xl mx-auto text-white p-4">
-              <h1 className="text-2xl sm:text-3xl">madoromiが目指す世界</h1>
+              <h1 className="text-2xl sm:text-3xl">
+                <div className="w-32 sm:w-44 inline-block mr-2">
+                  <Logo />
+                </div>
+                が目指す世界
+              </h1>
               <div className="mt-8 text-md sm:text-xl sm:leading-loose">
                 <p>まどろみのある豊かな世界。</p>
                 <p className="mt-4">
@@ -99,8 +104,11 @@ const IndexPage: React.FC = () => {
           </div>
           <div className="w-full h-screen sticky top-0">
             <div className="max-w-screen-2xl mx-auto text-white p-4">
-              <h1 className="text-2xl sm:text-3xl">
-                madoromiのエンジニアリング
+              <h1 className="text-xl sm:text-3xl">
+                <div className="w-32 sm:w-44 inline-block mr-2">
+                  <Logo />
+                </div>
+                のエンジニアリング
               </h1>
               <div className="mt-8 text-md sm:text-xl sm:leading-loose">
                 <p>
@@ -112,15 +120,10 @@ const IndexPage: React.FC = () => {
                   <br />
                 </p>
                 <p className="mt-4">
-                  この世界に透明性と公平性をもたらすことができれば、
-                  <br />
-                  いまよりもずっとフェアに、個人が輝ける場所を提供できます。
-                  <br />
+                  この世界に透明性と公平性をもたらすことができれば、いまよりもずっとフェアに、個人が輝ける場所を提供できます。
                 </p>
                 <p className="mt-4">
-                  退屈な仕事を圧縮することができれば
-                  <br />
-                  本当にやりたいことに注力できる時間を提供できます。
+                  退屈な仕事を圧縮することができれば、本当にやりたいことに注力できる時間を提供できます。
                 </p>
                 <p className="mt-4">
                   madoromiはテクノロジーをフェアに、そしてクリーンに扱います。
@@ -138,7 +141,12 @@ const IndexPage: React.FC = () => {
           </div>
           <div className="w-full h-screen sticky top-0">
             <div className="max-w-screen-2xl mx-auto text-white p-4">
-              <h1 className="text-2xl sm:text-3xl">madoromiの挑戦</h1>
+              <h1 className="text-2xl sm:text-3xl">
+                <div className="w-32 sm:w-44 inline-block mr-2">
+                  <Logo />
+                </div>
+                の挑戦
+              </h1>
               <div className="mt-8 text-md sm:text-xl sm:leading-loose">
                 <p>こんな小さな会社に何ができるのかと思うかもしれません。</p>
                 <p className="mt-4">
