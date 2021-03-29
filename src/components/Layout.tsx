@@ -23,6 +23,8 @@ export const Layout: React.FC<Props> = (props) => (
       <meta property="og:site_name" content={SiteName} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content={`${SiteUrl}/logo.png`} />
+      <meta name="twitter:title" content={props.title} />
+      <meta name="twitter:description" content={props.description} />
       <meta httpEquiv="Cache-Control" content="no-cache" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />

@@ -1,2 +1,2 @@
-export const SiteUrl = 'https://localhost:5000';
-export const SiteName = 'SiteName';
+export const SiteUrl = 'https://madoromi.co.jp';
+export const SiteName = 'madoromi';
