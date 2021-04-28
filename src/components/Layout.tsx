@@ -38,7 +38,7 @@ export const Layout: React.FC<Props> = (props) => (
 );
 
 Layout.defaultProps = {
-  title: 'madoromi',
+  title: '株式会社madoromi',
   description: '株式会社madoromi まどろみのある豊かな世界を。',
   keywords: 'madoromi,まどろみ',
 };

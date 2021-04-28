@@ -170,12 +170,9 @@ const IndexPage: React.FC = () => {
           </div>
           <div className="w-full h-screen sticky top-0">
             <div className="max-w-screen-2xl mx-auto text-white p-4">
-              <h1 className="text-2xl sm:text-3xl">会社概要</h1>
               <div className="mt-8 text-md sm:text-xl sm:leading-loose">
                 <p>株式会社madoromi (madoromi, Inc.)</p>
                 <p className="mt-4">
-                  代表
-                  <br />
                   代表取締役社長 佐々木達哉
                 </p>
                 <p className="mt-4">
