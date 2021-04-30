@@ -178,7 +178,7 @@ const IndexPage: React.FC = () => {
                 <p className="mt-4">
                   本社所在地
                   <br />
-                  〒150-0043
+                  〒150-0044
                   <br />
                   東京都渋谷区円山町10-18 マイキャッスル渋谷JP1003
                 </p>
