@@ -210,7 +210,7 @@ const IndexPage: React.FC = () => {
           </Link>
         </h1>
         <p className="mt-4 text-center text-xs">
-          Copyright &copy; 20201 madoromi, Inc.
+          Copyright &copy; 2022 madoromi, Inc.
         </p>
       </footer>
     </Layout>
