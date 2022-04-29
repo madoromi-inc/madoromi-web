@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "format": "npm run format:ts && npm run format:misc",
     "format:ts": "eslint --fix \"**/*.{js,ts,tsx}\"",
