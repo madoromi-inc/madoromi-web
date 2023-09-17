@@ -178,9 +178,9 @@ const IndexPage: React.FC = () => {
                 <p className="mt-4">
                   本社所在地
                   <br />
-                  〒150-0046
+                  〒150-0043
                   <br />
-                  東京都渋谷区松濤1丁目28-2
+                  東京都渋谷区道玄坂１丁目１０番８号渋谷道玄坂東急ビル２Ｆ－Ｃ
                 </p>
                 <p className="mt-4">
                   お問い合わせ
@@ -210,7 +210,7 @@ const IndexPage: React.FC = () => {
           </Link>
         </h1>
         <p className="mt-4 text-center text-xs">
-          Copyright &copy; 2022 madoromi, Inc.
+          Copyright &copy; 2021-2023 madoromi, Inc.
         </p>
       </footer>
     </Layout>
